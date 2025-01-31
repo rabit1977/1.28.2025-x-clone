@@ -12,16 +12,16 @@ export default function HomePage() {
         >
           For You
         </Link>
-        <Link href='/' className='pb-3 flex items-center'>
+        <Link href='/' className='pb-3  md:flex items-center'>
           Following
         </Link>
-        <Link href='/' className='pb-3 flex items-center'>
+        <Link href='/' className='pb-3 hidden md:flex items-center'>
           React js
         </Link>
-        <Link href='/' className='pb-3 flex items-center'>
+        <Link href='/' className='pb-3 hidden md:flex items-center'>
           Javascript
         </Link>
-        <Link href='/' className='pb-3 flex items-center'>
+        <Link href='/' className='pb-3 hidden md:flex items-center'>
           CSS
         </Link>
       </div>
