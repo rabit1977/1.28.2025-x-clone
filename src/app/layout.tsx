@@ -39,7 +39,7 @@ export default function RootLayout({
             {children}
             {modal}
           </div>
-          <div className='hidden lg:flex ml-4 md:ml-8 flex-1 '>
+          <div className='hidden lg:flex mx-4 md:ml-8 flex-1 '>
             <RightBar />
           </div>
         </div>

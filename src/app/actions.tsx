@@ -34,7 +34,8 @@ export const shareAction = async (
         sensitive: settings.sensitive,
       },
     },
-    function (error: Error, result) {
+    
+    function (error: Error | null, result) {
       if (error) console.log(error);
       else console.log(result);
     }
