@@ -2,9 +2,9 @@
 
 import NextImage from 'next/image';
 import React, { useState } from 'react';
-import { shareAction } from '../actions';
 import Image from './Image';
 import ImageEditor from './ImageEditor';
+import { shareAction } from '@/actions';
 
 const Share = () => {
   const [media, setMedia] = useState<File | null>(null);

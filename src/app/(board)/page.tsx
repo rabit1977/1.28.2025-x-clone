@@ -1,8 +1,8 @@
+import Feed from '@/components/Feed';
+import Share from '@/components/Share';
 import Link from 'next/link';
-import Feed from './components/Feed';
-import Share from './components/Share';
 
-export default function HomePage() {
+const HomePage = () => {
   return (
     <div className=''>
       <div className='flex justify-between text-trextGray font-bold border-b-[1px] border-borderGray px-4 pt-4'>
@@ -26,4 +26,5 @@ export default function HomePage() {
       <Feed />
     </div>
   );
-}
+};
+export default HomePage;

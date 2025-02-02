@@ -28,6 +28,7 @@ const Image = ({ path, w, h, alt, className, tr }: ImageType) => {
       lqip={{ active: true, quality: 20 }}
       alt={alt}
       className={className}
+      priority={true}
     />
   );
 };
